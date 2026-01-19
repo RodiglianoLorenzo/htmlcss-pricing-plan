@@ -9,6 +9,22 @@ max-width: 900px;
 margin: 0 auto;
 }
 
+.card{
+    margin-top: 60px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    
+}
+
+.basic, .professional, .ultimate{
+    flex-basis: calc(100% / 3 - (15px * 2) / 3);
+    flex-shrink: 0;
+    min-width: 290px;
+}
+
+
 
 h1{
     display: flex;
@@ -33,14 +49,6 @@ header{
         font-size: 12px;
         color: rgb(124, 123, 123);
     }
-}
-
-.card{
-    margin-top: 60px;
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    
 }
 
 .basic, .ultimate{
@@ -97,6 +105,8 @@ header{
         background-color:#6500FF;
         border: 5px solid #6500FF;
     }
+
+   
 }
 
 .professional{
@@ -108,32 +118,38 @@ header{
     text-align: center;
     box-shadow: 0 0 10px;
     border-radius: 20px;
+    color: white;
     
     .plane{
         text-align: left;
         margin-left: 30px;
         margin-bottom: 40px;
         font-size: 15px;
+
     }
 
     .dollar{
         font-size: 30px;
+       
     }
 
     .cost{
+      
         font-size: 50px;
         font-weight: 900;
         margin-bottom: 20px;
+        
     }
 
     .monthly{
         font-size: 20px;
         color: gray;
+        
     }
 
     .discount{
         margin-left: 10px;
-        
+        color: black;
         border: 2px solid  rgb(227, 227, 227);
         background-color: rgb(218, 217, 217);
         border-radius: 10px;
@@ -141,6 +157,7 @@ header{
     }
 
     .plan{
+        
         margin-top: 50px;
     }
 
@@ -158,11 +175,12 @@ header{
 ol{
     list-style: none;
     padding: 20px;
-
+    
     li{
         padding: 9px;
     }
 }
+
 
 
 h2{
