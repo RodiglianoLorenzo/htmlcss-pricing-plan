@@ -14,15 +14,18 @@ margin: 0 auto;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
-    
+    gap: 20px;
+    padding: 20px;
 }
 
 .basic, .professional, .ultimate{
-    flex-basis: calc(100% / 3 - (15px * 2) / 3);
+    flex-basis: calc(100% / 3 - (20px * 2) / 3); 
     flex-shrink: 0;
-    min-width: 290px;
+    flex-grow: 1;
+    min-width: 250px;
 }
+
+
 
 
 
@@ -53,13 +56,14 @@ header{
 
 .basic, .ultimate{
     background-color: #FFFFFF;
-    width: 30%;
     height: 600px;
     display: flex;
     flex-direction: column;
     text-align: center;
     box-shadow: 0 0 10px;
     border-radius: 20px;
+
+
     
     .plane{
         text-align: left;
@@ -111,7 +115,6 @@ header{
 
 .professional{
     background-color:#6500FF;
-    width: 30%;
     height: 600px;
     display: flex;
     flex-direction: column;
