@@ -34,3 +34,140 @@ header{
         color: rgb(124, 123, 123);
     }
 }
+
+.card{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+.basic, .ultimate{
+    background-color: #FFFFFF;
+    width: 30%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 0 10px;
+    border-radius: 20px;
+    
+    .plane{
+        text-align: left;
+        margin-left: 30px;
+        margin-bottom: 40px;
+        font-size: 15px;
+    }
+
+    .dollar{
+        font-size: 30px;
+    }
+
+    .cost{
+        font-size: 50px;
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+
+    .monthly{
+        font-size: 20px;
+        color: gray;
+    }
+
+    .discount{
+        margin-left: 10px;
+        
+        border: 2px solid  rgb(227, 227, 227);
+        background-color: rgb(218, 217, 217);
+        border-radius: 10px;
+        padding: 4px;
+    }
+
+    .plan{
+        margin-top: 50px;
+    }
+
+    button{
+        margin-top: 30px;
+        padding: 16px 40px;
+        border-radius: 15px;
+        color: white;
+        font-size: 20px;
+        background-color:#6500FF;
+        border: 5px solid #6500FF;
+    }
+}
+
+.professional{
+    background-color:#6500FF;
+    width: 30%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 0 10px;
+    border-radius: 20px;
+    
+    .plane{
+        text-align: left;
+        margin-left: 30px;
+        margin-bottom: 40px;
+        font-size: 15px;
+    }
+
+    .dollar{
+        font-size: 30px;
+    }
+
+    .cost{
+        font-size: 50px;
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+
+    .monthly{
+        font-size: 20px;
+        color: gray;
+    }
+
+    .discount{
+        margin-left: 10px;
+        
+        border: 2px solid  rgb(227, 227, 227);
+        background-color: rgb(218, 217, 217);
+        border-radius: 10px;
+        padding: 4px;
+    }
+
+    .plan{
+        margin-top: 50px;
+    }
+
+    button{
+        margin-top: 30px;
+        padding: 16px 40px;
+        border-radius: 15px;
+        color: rgb(101, 0, 255);
+        font-size: 20px;
+        background-color: rgb(255, 255, 255);
+        border: 5px solid rgb(255, 255, 255);
+    }
+}
+
+ol{
+    list-style: none;
+    padding: 20px;
+
+    li{
+        padding: 9px;
+    }
+}
+
+
+h2{
+    font-size: 30px;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 30px;
+}
